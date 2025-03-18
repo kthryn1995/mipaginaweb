@@ -1,0 +1,30 @@
+.p,p,p,p{
+text-align: justify;
+text-align: center;
+.contenedorusuario{
+    text-align: center;
+}
+}
+.contenedor{
+    text-align: center;
+}
+.h1,h1,h2,h4{
+    text-align: center;
+    margin: 20px;
+}
+.nav-enlace{
+    display: inline-block;
+    background-color: white;
+    color: black
+    padding 40px 10px;
+    text-decoration: none;
+
+}
+.nav-enlace:hover{
+    background: #5d733c75;
+}
+ nav{
+    background: rgb(148, 197, 68);
+    padding: 10px;
+ }
+ 
