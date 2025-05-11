@@ -1,74 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi pagina web</title>
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
 
-    <h1> HIGABRA CATERING</h1>
-  <div class="contenedor">
-   
-   <img src="logo.jpg" alt="Logo de la empresa" style="width: 300px;height: 250px;">
+  <header class="text-center my-4">
+    <h1>HIGABRA CATERING</h1>
+    <img src="imagenes/logo.jpg" alt="Logo de la empresa" style="width: 300px; height: 250px;">
+    <nav>
+      <ul class="nav justify-content-center mt-3">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="nosotros.html" class="nav-link" target="_blank">Nosotros</a></li>
+        <li class="nav-item"><a href="servicios.html" class="nav-link" target="_blank">Servicios</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>  
-        <nav>
-            <ul>
-          <a href="#" class="nav-enlace">Inicio</a>
-           <a href="#"class="nav-enlace">Nosotros</a>
-            <a href="#"class="nav-enlace">Servicios</a>
-          <a href="#"class="nav-enlace">Contacto</a>
-         
-         </ul>
-        </nav>
-    </header>
-<section>
-<h2> ¡Bienvenidos a nuestro rincón culinario! </h2>
-<p>Aquí encontrarás una fusión perfecta entre tradición y creatividad.
-Permítenos sorprenderte con nuestros sabores únicos.
-   
- </p>
+  <main class="container">
 
-</section>
+    <section class="my-5">
+      <h2>¡Bienvenidos a nuestro rincón culinario!</h2>
+      <p>Aquí encontrarás una fusión perfecta entre tradición y creatividad.
+        Permítenos sorprenderte con nuestros sabores únicos.
+      </p>
+    </section>
 
-    <section>
-<h2> Nosotros</h2>
-<p>
-    Higabra Catering S.A.S. es una empresa en Colombia,Su dirección 
-    reportada en Registro mercantil es <strong>VEREDA HIGABRA</strong> en la ciudad de 
-    Buriticá,la empresa fue fundada en 28 de octubre de 2020 yopera en Servicios de expendio 
-    de comidas Preparadasy actualmente emplea a 36 (2024) personas.
-    
-    </p>
-   
-</section>
+    <section class="my-5">
+      <h2>Nosotros</h2>
+      <p>
+        Higabra Catering S.A.S. es una empresa en Colombia. Su dirección
+        reportada en el Registro Mercantil es <strong>VEREDA HIGABRA</strong> en la ciudad de
+        Buriticá. La empresa fue fundada el 28 de octubre de 2020 y opera en servicios de expendio
+        de comidas preparadas. Actualmente emplea a 36 personas (2024).
+      </p>
+    </section>
 
-   <section >
-    <h2> Nuestros servicios </h2>
-    <ul>
-        <li>Consulta generales</li>
-        <li> Solicitar reserva</li>
-        <li> Solicitar menú disponible</li>
+    <section class="my-5">
+      <h2>Nuestros servicios</h2>
+      <ul>
+        <li>Consultas generales</li>
+        <li>Solicitar reserva</li>
+        <li>Solicitar menú disponible</li>
+      </ul>
+      <div class="text-center mt-3">
+        <img src="imagenes/usuarios.png" alt="Imagen de usuarios en el restaurante"
+          style="width:150px; height:120px;">
+      </div>
+    </section>
 
-    </ul>
-   </section>
-   <div class="contenedor">
-   <img src="usuarios.png" alt="imagen de usuarios en el restaurante" 
-   style="width:150px;height:120 ;">
+  </main>
 
-
-   <footer>
-<div class="logo-footer">
-    <img src="logo.jpg" alt="logo de la empresa" style=" width80px;height:50px;">
+  <!-- Footer -->
+  <footer class="footer-personalizado py-3 mt-5 bg-dark text-white">
+    <div class="container text-center">
+      <p>Síguenos o contáctanos</p>
+      <div>
+        <a href="https://wa.me/573012345678" target="_blank" class="text-white mx-3">
+          <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="text-white mx-3">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+      </div>
+      <p class="mt-2">&copy; 2025 Higabra Catering - Todos los derechos reservados.</p>
     </div>
+  </footer>
 
-    <h4> Copyright © 2024 HubSpot, Inc.</h4>
-
-
-   </footer>
-    
-    
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
