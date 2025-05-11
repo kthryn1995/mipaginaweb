@@ -6,31 +6,58 @@
     <title>Nosotros</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="logo.jpg" type="imagen"x-icon>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"><!-- Enlace de Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"><!-- Enlace de Font Awesome para los íconos -->
+
+    
 </head>
+
 <body>
-    <h1> HIGABRA CATERING</h1>
-    <div class="contenedor">
-     
-     <img src="logo.jpg" alt="Logo de la empresa" style="width: 250px;height: 200px;">
+    
+  <div class="encabezadonosotros">
+      <h1>HIGABRA CATERING</h1>
+      <img src="imagenes/logo.jpg" alt="Logo de la empresa" style="width: 250px; height: 200px;">
+  </div>
 
-
-     <section class="ubicacion">
-        <div class="mapa">
-        
+  <a href="index.html" class="boton-flotante" title="Volver al inicio">🏠</a>
+      
+ 
+  <section class="ubicacion">
+    <h2>Nuestra ubicación</h2>
+  
+    <div class="ubicacion-container">
+      <!-- Mapa -->
+      <div class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7925.
-    0943869969815!2d-75.92026945967508!3d6.702862273170892!2m3!1f0!2f0!3f0!3m2!1i
-    1024!2i768!4f13.1!3m3!1m2!1s0x8e45baba5caf0711%3A0x62f7e4fd13ac704b!2sHigabra%2C%20Buriti
-    c%C3%A1%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1746418431839!5m2!1ses!2sco"
-    width="500" 
-    height="300" 
-    style="border:0;" 
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-</div>
+        0943869969815!2d-75.92026945967508!3d6.702862273170892!2m3!1f0!2f0!3f0!3m2!1i
+        1024!2i768!4f13.1!3m3!1m2!1s0x8e45baba5caf0711%3A0x62f7e4fd13ac704b!2sHigabra%2C%20Buriti
+        c%C3%A1%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1746418431839!5m2!1ses!2sco"
+        width="800" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+  
+      <!-- Sección de equipo -->
+      <section class="equipo">
+        <div class="container text-center">
+          <h2 class="titulo-conocenos">conocenos</h2>
+          <img src="imagenes/conductores.jpeg" alt="Nuestro equipo" class="img-fluid rounded shadow mb-3" style="max-width: 400px;">
+          <img src="imagenes/equipocatering.jpeg" alt="Nuestro equipo" class="img-fluid rounded shadow mb-3" style="max-width: 400px;">
+          <p>Somos Higabra Catering: cocinamos con el alma, servimos con el corazón.</p>
+        </div>
+      </section>
+    </div>
+  </section>
 
-<div class="texto">
+
+
+
+
+<div class="textoubicacion">
     <h2>¿Dónde estamos?</h2>
     <p><strong>¡Te esperamos en nuestro restaurante!</strong></p>
     <p>
@@ -42,20 +69,40 @@
   </div>
 </section>
 
-<section id="contacto">
-    <h2>Contáctanos</h2>
-  
-    <p>
-      ¿Tienes preguntas o deseas hacer un pedido? ¡Estamos aquí para ayudarte!
-      Escríbenos por WhatsApp o visítanos directamente.
-    </p>
-  
-    <a href="https://wa.me/573016578453" target="_blank"
-      📞 Escríbenos por WhatsApp
-    </a>
-  </section>
+ <!-- horarios -->
+<section class="info-adicional mt-5">
+  <div class="container">
+    <h3>Horarios de atención</h3>
+    <ul class="list-unstyled">
+      <li><strong>Lunes a Viernes:</strong> 8:00 a.m. - 6:00 p.m.</li>
+      <li><strong>Sábados:</strong> 9:00 a.m. - 4:00 p.m.</li>
+      <li><strong>Domingos:</strong> Cerrado</li>
+    </ul>
+  </div>
+</section>
 
 
+
+
+<!-- redes de contacto -->
+<footer class="footer-personalizado py-3 mt-5">
+
+  <div class="container text-center">
+      <p>Síguenos o contáctanos</p>
+      <div>
+          <a href="https://wa.me/573012345678" target="_blank" class="text-white mx-3">
+              <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" class="text-white mx-3">
+              <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">
+              <i class="fab fa-instagram fa-2x"></i>
+          </a>
+      </div>
+      <p class="mt-2">&copy; 2025 Higabra Catering todos los derechos reservados.</p>
+  </div>
+</footer>
 
 
 

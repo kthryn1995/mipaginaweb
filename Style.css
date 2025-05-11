@@ -27,38 +27,3 @@ text-align: center;
     background: rgb(148, 197, 68);
     padding: 10px;
  }
- 
- .ubicacion {
-    display: flex;
-    gap: 30px; /* espacio entre el mapa y el texto */
-    align-items: flex-start; /* alinea arriba */
-    padding: 20px;
-  }
-  
-  .mapa iframe {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .texto {
-    max-width: 500px;
-  }
-
-  #contacto {
-    padding: 20px;
-  }
-  
-  .boton-whatsapp {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #25D366;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .boton-whatsapp:hover {
-    background-color: #1ebe57;
-  }
